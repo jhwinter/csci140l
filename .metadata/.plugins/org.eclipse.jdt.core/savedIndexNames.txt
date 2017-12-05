@@ -1,0 +1,23 @@
+INDEX VERSION 1.127+/home/jtwinters/workspace/CSCI140L/.metadata/.plugins/org.eclipse.jdt.core
+3459965890.index
+3938652823.index
+664741535.index
+2259717368.index
+1259291233.index
+392775124.index
+460152253.index
+660162295.index
+3900037835.index
+3192919885.index
+3107836756.index
+2426646370.index
+1348367969.index
+989528713.index
+1513993030.index
+3927879410.index
+1804249571.index
+2208506105.index
+2307328643.index
+2598035366.index
+3542660237.index
+3377932251.index

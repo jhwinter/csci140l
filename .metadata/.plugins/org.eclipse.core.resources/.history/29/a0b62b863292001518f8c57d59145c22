@@ -1,0 +1,36 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
+/**
+ * Write a program that asks the user for a file name and prints the number of
+ * characters, words, and lines in that file.
+ * 
+ * November 23, 2015
+ * 
+ * @author Jonathan Winters
+ *
+ */
+public class Lab22 {
+
+	public static void main(String[] args) throws FileNotFoundException {
+
+		System.out.print("File: ");
+		
+		Scanner in = new Scanner(new File (in.nextLine()));
+		String fileName = in.nextLine();
+		File inFile = new File(fileName);
+		
+		
+		
+		int i = 0;
+		while (in.hasNext()) {
+			String lines = in.nextLine();
+			i++;
+		}
+		System.out.print("Line: " + i);
+		
+		
+		in.close();
+	}
+}

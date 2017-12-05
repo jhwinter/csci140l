@@ -1,0 +1,36 @@
+import java.io.File;
+import java.util.Scanner;
+
+/**
+ * Write a program that asks the user for a file name and prints the number of
+ * characters, words, and lines in that file.
+ * 
+ * November 23, 2015
+ * 
+ * @author Jonathan Winters
+ *
+ */
+public class Lab22 {
+
+	public static void main(String[] args) {
+
+		Scanner in = new Scanner(System.in);
+		System.out.print("File: ");
+		String fileName = in.next();
+		
+		File inFile = new File(in.next());
+		
+		
+		
+		int i = 1;
+		while (in.hasNextLine()) {
+			String lines = in.next();
+			System.out.println(lines);
+			i++;
+		}
+		System.out.print("Line: " + i);
+		
+		
+		
+	}
+}
